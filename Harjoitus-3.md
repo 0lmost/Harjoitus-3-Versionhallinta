@@ -39,6 +39,21 @@ Tee useita muutoksia git-varastoosi. Tee muutama muutos, jossa yksi commit koske
 
 Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
+		$ git log
+
+Selvittää varastoon tehdyt muutokset eli commitit. Logista selviää tarkat tiedot mm. token, muutoksen tekijä ja aika milloin muutos tehtiin ja commit viesti.
+
+
+		$ git diff
+
+
+Kuten nimi hieman kertoo, komento näyttää erot tiedostoissa, jos vaikka ei oli vielä committanut muutoksia niin näyttää erot githubiin verrattuna + merkillä.
+
+
+		$ git blame
+
+
+Komento osoittaa suoraan itse syylliseen eli näyttää suoraan kuka on tehnyt mitäkin työtä tiedostossa eli kuka on kirjoittanut minkä rivin.
 
 ## c) Huppis!
 
