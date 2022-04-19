@@ -1,6 +1,6 @@
 # Harjoitus 3 - Versionhallinta
 
-Tehtävien teko aloitettu 19.4.2022 klo 13:30 
+Tehtävien teko aloitettu 19.4.2022 klo 13:30 | Lopetettu klo 16:30
 
 **Laitteen/alustan tiedot, jolla tehtävä suoritettiin**
 
