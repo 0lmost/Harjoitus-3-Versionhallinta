@@ -11,9 +11,9 @@ Tehtävien teko aloitettu 19.4.2022 klo 13:30
 
 ## z) Lue ja tiivistä 
 
-[Link](https://commonmark.org/help/)
+[MarkDown-artikkeli](https://commonmark.org/help/)
 
-- Ohejeita tesktin ja koodin muotoiluun markdownissa.
+- Ohejeita tekstin ja koodin muotoiluun markdownissa.
 
 ## a) MarkDown 
 
@@ -47,13 +47,16 @@ Selvittää varastoon tehdyt muutokset eli commitit. Logista selviää tarkat ti
 		$ git diff
 
 
-Kuten nimi hieman kertoo, komento näyttää erot tiedostoissa, jos vaikka ei oli vielä committanut muutoksia niin näyttää erot githubiin verrattuna + merkillä.
+Kuten nimi hieman kertoo, komento näyttää erot tiedostoissa, jos vaikka ei oli vielä committanut muutoksia niin näyttää erot githubiin verrattuna + merkillä. Ei näytä mitään, jos muutoksia ei ole tehty.
 
 
 		$ git blame
 
 
-Komento osoittaa suoraan itse syylliseen eli näyttää suoraan kuka on tehnyt mitäkin työtä tiedostossa eli kuka on kirjoittanut minkä rivin.
+Komento osoittaa suoraan itse syylliseen eli näyttää suoraan kuka on tehnyt mitäkin työtä tiedostossa eli kuka on kirjoittanut minkä rivin. Aluksi komento ei näyttänyt minulle mitään, mutta googlasin ja löysin hyvän selityksen.
+Piti laittaa tiedoston nimi komennon perään niin komento toimi.
+Lähde: [Git Blame Explained with Examples](https://www.freecodecamp.org/news/git-blame-explained-with-examples/) Luettu 19.4.2022
+
 
 ## c) Huppis!
 
