@@ -1,6 +1,6 @@
 # Harjoitus 3 - Versionhallinta
 
-Tehtävien teko aloitettu 19.4.2022 klo 13:30
+Tehtävien teko aloitettu 19.4.2022 klo 13:30 
 
 **Laitteen/alustan tiedot, jolla tehtävä suoritettiin**
 
@@ -13,7 +13,7 @@ Tehtävien teko aloitettu 19.4.2022 klo 13:30
 
 [MarkDown-artikkeli](https://commonmark.org/help/)
 
-- Ohejeita tekstin ja koodin muotoiluun markdownissa.
+- Ohjeita tekstin ja koodin muotoiluun markdownissa.
 
 ## a) MarkDown 
 
