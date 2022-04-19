@@ -2,7 +2,7 @@
 
 Tehtävien teko aloitettu 19.4.2022 klo 13:30
 
-**Bold** Laitteen/alustan tiedot, jolla tehtävä suoritettiin:
+** Laitteen/alustan tiedot, jolla tehtävä suoritettiin:**
 
     Oracle VirtualBox Version 6.1.32 r149290 (Qt5.6.2)
     Debian 11.3
@@ -34,6 +34,7 @@ Kun suoritin git add ja commit sekä git push ja pull ja menin githubiin katsoma
 
 Tee useita muutoksia git-varastoosi. Tee muutama muutos, jossa yksi commit koskee useampaa tiedostoa. Anna hyvä kuvaukset (commit message), yksi englanninkielinen lause imperatiivissa (määräysmuodossa) "Add top level menu to Foobar synchronizer"
 
+Tehtävää tehdessä tein useita committeja ja annoin uusia commit viestejä ohjeen mukaisesti.
 
 ## b) Kaikki kirjataan
 
@@ -76,3 +77,32 @@ Komennon jälkeen sain viestin "HEAD is now at..." eli viimeinen muutos oli tuon
 
 Tee uusi salt-tila (formula, moduli, infraa koodina). (Eli uusi tiedosto esim. /srv/salt/terontila/init.sls). Voit tehdä ihan yksinkertaisen parin funktion (pkg, file...) tilan, tai edistyneemmin asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
 
+Aloitin tekemällä uuden kansion /srv/salt/vscode ja tein sinne init tiedoston
+
+		$ sudoedit /srv/salt/vscode/init.sls
+
+Jonne tein pkg tilan, koska halusin asentaa Visual Studio Code -ohjelman.
+
+code:
+  pkg.installed
+
+Sen jälkeen kommenolla:
+
+		$ sudo salt '*' state.apply vscode 
+
+Ajoin luomani uuden salt- moduulin ja sain onnistuneen palautteen, Succeeded: 1 ja changed=1. Ajoin moduulin vielä kerran ja muutoksia ei enää tullut joten komento on idempotentti.
+
+*Ennen kuin tein init.sls tiedoston seurasin googlesta löytmämiäni ohjeita miten vscode asennetaan (Microsoft GPG key jne)
+Lähde: [How to Install Visual Studio Code on Ubuntu 20.04](https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/) Luettu: 19.4.2022
+
+
+## Lähteet:
+
+https://terokarvinen.com/2021/configuration-management-systems-2022-spring/ Luettu 19.4.2022
+[MarkDown-artikkeli](https://commonmark.org/help/)
+[Git Blame Explained with Examples](https://www.freecodecamp.org/news/git-blame-explained-with-examples/) Luettu 19.4.2022
+[How to Install Visual Studio Code on Ubuntu 20.04](https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-20-04/) Luettu: 19.4.2022
+
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti. http://www.gnu.org/licenses/gpl.html
+
+Pohjana Tero Karvisen Palvelinten Hallinta kurssi, Kevät 2022 https://terokarvinen.com/2021/configuration-management-systems-2022-spring/
