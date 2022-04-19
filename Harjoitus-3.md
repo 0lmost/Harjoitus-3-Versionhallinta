@@ -62,7 +62,15 @@ Lähde: [Git Blame Explained with Examples](https://www.freecodecamp.org/news/gi
 
 Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
-Aloitin
+Aloitin tekemällä git varaston kansioon tiedoston 
+
+		$ micro Huppis.md
+
+sen jälkeen tein git add. Tämän jälkeen tuhosin huonot muutokset komennolla:
+
+		$ git reset --hard
+
+Komennon jälkeen sain viestin "HEAD is now at..." eli viimeinen muutos oli tuon reset komennon jälkeen viimeisin commit ja tyhmä muutos oli poistettu.
 
 ## d) Formula
 
