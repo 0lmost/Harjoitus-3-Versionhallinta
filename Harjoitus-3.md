@@ -2,7 +2,7 @@
 
 Tehtävien teko aloitettu 19.4.2022 klo 13:30
 
-** Laitteen/alustan tiedot, jolla tehtävä suoritettiin:**
+**Laitteen/alustan tiedot, jolla tehtävä suoritettiin**
 
     Oracle VirtualBox Version 6.1.32 r149290 (Qt5.6.2)
     Debian 11.3
