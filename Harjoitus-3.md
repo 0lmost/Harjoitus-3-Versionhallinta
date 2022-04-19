@@ -45,7 +45,7 @@ Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff
 
 		$ git log
 		
-	![image](https://user-images.githubusercontent.com/60943507/164012965-91377576-c24f-41b8-8768-c0b8710baff4.png)
+![image](https://user-images.githubusercontent.com/60943507/164012965-91377576-c24f-41b8-8768-c0b8710baff4.png)
 	
 
 Selvittää varastoon tehdyt muutokset eli commitit. Logista selviää tarkat tiedot mm. token, muutoksen tekijä ja aika milloin muutos tehtiin ja commit viesti.
