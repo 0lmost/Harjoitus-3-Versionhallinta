@@ -91,9 +91,9 @@ Aloitin tekemällä uuden kansion /srv/salt/vscode ja tein sinne init tiedoston
 		$ sudoedit /srv/salt/vscode/init.sls
 
 Jonne tein pkg tilan, koska halusin asentaa Visual Studio Code -ohjelman.
-
-code:
-  pkg.installed
+	
+	code:
+	  pkg.installed
 
 Sen jälkeen kommenolla:
 
