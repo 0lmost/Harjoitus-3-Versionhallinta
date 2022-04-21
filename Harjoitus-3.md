@@ -30,7 +30,7 @@ Tämä teki kansion Debianiin, joka on siis linkattu tuohon github-varastoon. Si
 
 	$ micro Harjoitus-3.md
 
-Kun suoritin git add ja commit sekä git push ja pull ja menin githubiin katsomaan, miltä siellä näytti niin huomasin, että olin vahingossa nimennyt tiedoston vain nimellä md, joten se ei ollit MarkDown muodossa, joten korjasin nimeämällä tiedoston uudestaan Harjoitus-3.md
+Kun suoritin git add ja commit sekä git push ja pull ja menin githubiin katsomaan, miltä siellä näytti niin huomasin, että olin vahingossa nimennyt tiedoston vain nimellä md, joten se ei ollut MarkDown muodossa, joten korjasin nimeämällä tiedoston uudestaan Harjoitus-3.md
 
 
 ## b) Pull first
